@@ -12,8 +12,7 @@
 #if !COCOAPODS
 #import "webp/decode.h"
 #else
-//FIXME:WORKAROUND for CocoaPods1.0.0 + use_frameworks!
-#import "webp/decode.h"
+#import "libwebp/webp/decode.h"
 #endif
 
 // Callback for CGDataProviderRelease
